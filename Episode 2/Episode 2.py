@@ -1,3 +1,6 @@
+**VERY OUTDATED**
+**SOME PARTS MAY NOT WORK AS SHOWN**
+
 #imports 
 import os
 import random
