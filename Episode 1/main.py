@@ -9,16 +9,16 @@ import discord
 from discord.ext import commands
 
 
-
-client = commands.Bot(command_prefix= '?')#bots prefix
-#^^^
-#If used bot then replace client with bot.
+#You can change client to Bot but then you HAVE to replace @client..... to @bot.....
+client = commands.Bot(command_prefix= '?')#this is stating that once it meantions @client/@bot it will read the prefix before the command meaning that the command will have to be stated before.
 
 
 
-#once bot is ready print all infomtion below. 
+
+
+
 @client.event
-async def on_ready():
+async def on_ready(): #once bot is ready pring everything below
   print('Youtube Bot 1')
   print('Logged in as: '+client.user.name)
   print('Client User ID: '+str(client.user.id))
